@@ -1116,15 +1116,15 @@ pre[class*='language-'] {
     page-break-before: always;
   }
 
-  h2 {
+  h2 
+  h3,
+  h4
+  {
     page-break-after: avoid;
   }
 
-  h3,
-  h4,
-  ul:nth-child(1),
-  ul:nth-child(2) {
-    page-break-after: avoid;
+  li {
+    page-break-inside: avoid;
   }
 
   pre,
